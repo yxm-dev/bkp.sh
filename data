@@ -1,0 +1,25 @@
+#! /bin/bash
+
+# take from ~/.config/rclone/rclone.conf
+
+remote[0]=pcloud
+
+# array of remote indexes
+
+N=(0)
+
+declare -a remote
+
+# set main local directory
+main_dir="$HOME/bkp/pcloud/"
+
+# set main remote
+main_remote="pcloud"
+
+# set main type of relation (copy, move, sync)
+main_relation="sync"
+
+#set main direction (pull, push)
+main_direction="push"
+
+
