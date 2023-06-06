@@ -1,7 +1,7 @@
 #! /bin/bash
 
-installdir=$HOME/.config/bkp.sh
-source $installdir/data
+install_dir=$HOME/.config/bkp.sh
+source $install_dir/data
 
 function bkp(){
         topdir_name_2=$(echo "$2" | cut -d "/" -f2)
